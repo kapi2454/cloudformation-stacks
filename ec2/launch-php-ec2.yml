@@ -1,0 +1,3 @@
+template-file-path: ec2/launch-php-ec2.yml
+parameters: {}
+tags: {}
