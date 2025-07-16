@@ -45,7 +45,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-0c55b159cbfafe1f0 # Amazon Linux 2 (ajustar según región)
+      ImageId: ami-0f3564425eaa7d1d8 # Amazon Linux 2 (South America(Sao Paulo))
       IamInstanceProfile: !Ref PHPInstanceProfile
       SecurityGroupIds:
         - !Ref WebSecurityGroup
